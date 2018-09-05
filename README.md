@@ -16,3 +16,9 @@ Please make sure you have the following dependencies installed
 - once completed, run `npm run test:cucumber`
 
 Wait for the messages on the terminal. It should show test results
+
+## Project structure
+
+### test - contains the cucumber tests
+
+### errorShots - contains the screenshots of the tests that failed
