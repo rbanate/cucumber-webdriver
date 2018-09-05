@@ -1,0 +1,26 @@
+{
+  "name": "physicianreg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:cucumber": "./node_modules/.bin/wdio wdio.development.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "cucumber": "^4.2.1",
+    "jest": "^23.5.0",
+    "wdio-cucumber-framework": "^2.2.7",
+    "wdio-sauce-service": "^0.4.10",
+    "wdio-selenium-standalone-service": "0.0.10",
+    "wdio-spec-reporter": "^0.1.5",
+    "webdriverio": "^4.13.2"
+  }
+}
